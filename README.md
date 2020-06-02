@@ -1,4 +1,4 @@
-How to Configure Airflow for the Datadog Hook with Use Examples
+How to Configure Airflow for the Datadog Hook with Usage Examples
 --
 
 Tested on Airflow 1.10.10 on Ubuntu 18.04.4 LTS on EC2
@@ -11,11 +11,11 @@ This is not a default connection in Airflow so it will throw an error saying the
 
 To configure 
 
-1) go to the [connection UI](http://<airflow_host>:8080/admin/connection/).
+1) go to the connection UI - http://<airflow_host>:8080/admin/connection/
 2) Click create for a new connection
 3) Then add the following:
 
-[Airflow Connection UI](./connection.png)
+[Airflow Connection UI Screenshot](./connection.png)
 
 From here you are ready to go.
 
